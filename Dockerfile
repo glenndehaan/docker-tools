@@ -8,4 +8,4 @@ FROM alpine:3.18
 #
 
 # Install packages
-RUN apk add --no-cache htop mc git whois dig curl wget
+RUN apk add --no-cache htop mc git whois bind-tools curl wget
