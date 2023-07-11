@@ -18,6 +18,7 @@ Below is an overview of all installed tools besides the default tools already av
 * **zip**: A utility for creating compressed zip archives.
 * **unzip**: A utility for extracting files from zip archives.
 * **openssl**: A powerful cryptographic toolkit that provides various tools and libraries for secure communication and data encryption.
+* **jq**: Process JSON data with ease, allowing for effective parsing and manipulation.
 * **mysql-client**: Command-line interface for connecting to MySQL databases and executing SQL queries.
 * **mariadb-client**: Command-line interface for connecting to MariaDB databases and performing database operations.
 * **postgresql15-client**: Command-line interface for connecting to PostgreSQL databases and executing SQL queries.
@@ -94,4 +95,27 @@ example-job:
   image: glenndehaan/docker-tools:latest
   script:
     - echo "Run your scripts here!"
+```
+
+### GitHub Actions
+You can use the container as a base container allowing you to access all included tools.
+Below is an example GitHub action / `.github/workflows/test.yml`.
+
+```yaml
+name: Test
+
+on:
+  push:
+    branches:
+      - 'master'
+
+jobs:
+  example-job:
+    runs-on: ubuntu-latest
+    container: glenndehaan/docker-tools:latest
+    steps:
+      - name: Run motd
+        run: motd
+      - name: Example script
+        run: echo "Run your scripts here!"
 ```
