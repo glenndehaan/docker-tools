@@ -19,6 +19,7 @@ Below is an overview of all installed tools besides the default tools already av
 * **unzip**: A utility for extracting files from zip archives.
 * **openssl**: A powerful cryptographic toolkit that provides various tools and libraries for secure communication and data encryption.
 * **jq**: Process JSON data with ease, allowing for effective parsing and manipulation.
+* **telnet**: Test network services by establishing a connection to a specified host and port.
 * **mysql-client**: Command-line interface for connecting to MySQL databases and executing SQL queries.
 * **mariadb-client**: Command-line interface for connecting to MariaDB databases and performing database operations.
 * **postgresql15-client**: Command-line interface for connecting to PostgreSQL databases and executing SQL queries.
