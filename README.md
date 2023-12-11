@@ -23,7 +23,6 @@ Below is an overview of all installed tools besides the default tools already av
 * **mysql-client**: Command-line interface for connecting to MySQL databases and executing SQL queries.
 * **mariadb-client**: Command-line interface for connecting to MariaDB databases and performing database operations.
 * **postgresql15-client**: Command-line interface for connecting to PostgreSQL databases and executing SQL queries.
-* **terraform**: Infrastructure as Code (IaC) tool used for provisioning and managing cloud resources.
 * **kubectl**: Command-line interface for interacting with Kubernetes clusters, allowing you to manage and control your containerized applications.
 * **helm**: A package manager for Kubernetes that simplifies the deployment and management of applications on a Kubernetes cluster.
 

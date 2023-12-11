@@ -13,7 +13,7 @@ ARG TARGETARCH
 #
 
 # Install packages
-RUN apk add --no-cache bash htop mc git whois bind-tools curl wget zip unzip openssl jq inetutils-telnet mysql-client mariadb-client postgresql15-client terraform
+RUN apk add --no-cache bash htop mc git whois bind-tools curl wget zip unzip openssl jq inetutils-telnet mysql-client mariadb-client postgresql15-client
 
 #
 # Install additional packages
