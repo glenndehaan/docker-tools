@@ -8,6 +8,8 @@ This collection of tools and resources is designed to enhance your debugging exp
 Below is an overview of all installed tools besides the default tools already available within Alpine Linux:
 
 * **bash**: A widely used shell for executing commands, scripting, and interactive shell sessions.
+* **less**: View and navigate large text files comfortably within the terminal.
+* **glow**: Render markdown files in the terminal with rich formatting and syntax highlighting.
 * **htop**: An interactive process viewer that provides detailed information about system processes, resource utilization, and more.
 * **mc**: Midnight Commander, a text-based file manager that allows for efficient file operations within the container.
 * **git**: Version control system for tracking changes in source code and collaborating with others.
@@ -25,6 +27,11 @@ Below is an overview of all installed tools besides the default tools already av
 * **postgresql15-client**: Command-line interface for connecting to PostgreSQL databases and executing SQL queries.
 * **kubectl**: Command-line interface for interacting with Kubernetes clusters, allowing you to manage and control your containerized applications.
 * **helm**: A package manager for Kubernetes that simplifies the deployment and management of applications on a Kubernetes cluster.
+* **helmfile**: Deploy multiple Kubernetes charts and manage Helm releases declaratively.
+* **kubectx**: Switch between Kubernetes contexts with ease, simplifying management of multiple clusters.
+* **kubent**: Simple tool to check whether you're using any deprecated APIs in your cluster and therefore should upgrade your workloads first, before upgrading your Kubernetes cluster.
+* **kubeconform**: Validate Kubernetes resource YAML files against best practices and policies.
+* **kube-linter**: Analyze Kubernetes configurations for potential issues and improvements.
 
 ## Auto Rebuild
 This feature ensures that the docker-tools image is automatically rebuilt and updated on a weekly basis, specifically during Saturday nights.
