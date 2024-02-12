@@ -13,7 +13,7 @@ ARG TARGETARCH
 #
 
 # Install packages
-RUN apk add --no-cache bash less htop mc git whois bind-tools curl wget zip unzip openssl jq inetutils-telnet procps-ng mysql-client mariadb-client postgresql15-client kubectx \
+RUN apk add --no-cache bash less htop mc git whois bind-tools curl wget zip unzip openssl openssh jq inetutils-telnet procps-ng mysql-client mariadb-client postgresql15-client kubectx nmap \
     && apk add --no-cache helmfile glow --repository=https://dl-cdn.alpinelinux.org/alpine/edge/testing
 
 #
