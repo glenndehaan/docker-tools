@@ -32,6 +32,7 @@ Below is an overview of all installed tools besides the default tools already av
 * **kubent**: Simple tool to check whether you're using any deprecated APIs in your cluster and therefore should upgrade your workloads first, before upgrading your Kubernetes cluster.
 * **kubeconform**: Validate Kubernetes resource YAML files against best practices and policies.
 * **kube-linter**: Analyze Kubernetes configurations for potential issues and improvements.
+* **testssl.sh**: Test SSL/TLS security configuration of a server by performing a comprehensive analysis.
 
 ## Auto Rebuild
 This feature ensures that the docker-tools image is automatically rebuilt and updated on a weekly basis, specifically during Saturday nights.
