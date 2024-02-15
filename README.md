@@ -35,6 +35,7 @@ Below is an overview of all installed tools besides the default tools already av
 * **kubeconform**: Validate Kubernetes resource YAML files against best practices and policies.
 * **kube-linter**: Analyze Kubernetes configurations for potential issues and improvements.
 * **testssl.sh**: Test SSL/TLS security configuration of a server by performing a comprehensive analysis.
+* **shellcheck**: Analyze shell scripts for common errors, improving their reliability and maintainability.
 
 ## Auto Rebuild
 This feature ensures that the docker-tools image is automatically rebuilt and updated on a weekly basis, specifically during Saturday nights.
