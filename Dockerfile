@@ -63,6 +63,11 @@ COPY ./scripts/motd.sh /usr/local/bin/motd
 COPY ./scripts/readme.sh /usr/local/bin/readme
 
 #
+# Setup workdir
+#
+WORKDIR /project
+
+#
 # Setup entrypoint
 #
 COPY ./scripts/entrypoint.sh /usr/local/bin/entrypoint
