@@ -36,6 +36,7 @@ Below is an overview of all installed tools besides the default tools already av
 * **kube-linter**: Analyze Kubernetes configurations for potential issues and improvements.
 * **testssl.sh**: Test SSL/TLS security configuration of a server by performing a comprehensive analysis.
 * **shellcheck**: Analyze shell scripts for common errors, improving their reliability and maintainability.
+* **hugo**: Build and manage static websites and blogs with the Hugo static site generator.
 
 ## Auto Rebuild
 This feature ensures that the docker-tools image is automatically rebuilt and updated on a weekly basis, specifically during Saturday nights.
