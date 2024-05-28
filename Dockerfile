@@ -1,7 +1,7 @@
 #
 # Define OS
 #
-FROM alpine:3.19
+FROM alpine:3.20
 
 #
 # Set Arguments
